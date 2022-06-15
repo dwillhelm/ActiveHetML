@@ -1,5 +1,6 @@
 # ActiveHetML
-Active Learning for van der Waals Heterostructures
+Active Learning for van der Waals Heterostructures  
+D.Willhelm (2022)
 
 For a demonstration, please refer to the [example notebooks](https://github.com/dwillhelm/ActiveHetML/tree/main/notebooks). 
 
@@ -27,5 +28,9 @@ $IE = E_{vac} - E_{VBM}$
 Hwere $E_{vac}$ is the vacuum energy and $E_{VBM}$ is the valence band edge energy The diagram below shows how the IE is defined graphically.
 
 ![alt text](https://github.com/dwillhelm/ActiveHetML/blob/main/docs/figs/band_alignment_diagram.svg?raw=true)
+
+
+## Repo Setup  
+
 
 
