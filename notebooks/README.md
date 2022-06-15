@@ -9,7 +9,7 @@ Here, I will demonstrate how active learning can be used to design a vdW bilayer
 
 ## A Brief Material Background
 
-Here I will focus on one property - the ionization energy (IE). The IE is defined by the energy of the valence band maxima with respect to the vacuum level energy. 
+Here I will focus on one property - the ionization energy (IE). The IE is defined by the energy of the valence band maxima with respect to the vacuum level energy. Here, the IE is used with units in electron volts (eV). 
 
 $IE = E_{vac} - E_{VBM}$
 
