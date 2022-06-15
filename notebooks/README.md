@@ -5,3 +5,14 @@ These notebooks demonstrate a sequential learning (a.k.a active learning) proces
 2D vdW heterostructures are an emerging family of materials made by vertically stacking different 2D monolayers. When stacked, these materials display emergent properties unique to that of the component monolayers. This means that the properties of the bilayer can be tuned by careful selection of the constituent monolayers (i.e. stacking order) as well as other factors such as interlayer distance or interlayer twist-angle. These materials have a wide range of potential applications in next-generation electronic and optoelectronics. For many applications, the position of the electronic band edges is important. For example, one may wish to align the band edges with another material to tune the properties via doping or wish to find materials with suitable band edges for photocatalytic water splitting reactions. 
 
 Here, I will demonstrate how active learning can be used to design a vdW bilayer with an optimal band edge of your choosing. First I will perform an initial analysis of the dataset and test some machine learning models to predict the IE ([Notebook 1](https://github.com/dwillhelm/ActiveHetML/blob/main/notebooks/01-data_exploration.ipynb)). Afterward, I will use active learning to build new machine learning models starting with only 10 initial samples ([Notebook 2](https://github.com/dwillhelm/ActiveHetML/blob/main/notebooks/01-data_exploration.ipynb)). Then, I will demonstrate how to use active learning to optimize the IE for a given target value ([Notebook 3](https://github.com/dwillhelm/ActiveHetML/blob/main/notebooks/03-active_learning_property_optimization.ipynb)). 
+
+
+## A Brief Material Background
+
+Here I will focus on one property - the ionization energy (IE). The IE is defined by the energy of the valence band maxima with respect to the vacuum level energy. 
+
+$IE = E_{vac} - E_{VBM}$
+
+Hwere $E_{vac}$ is the vacuum energy and $E_{VBM}$ is the valence band edge energy The diagram below shows how the IE is defined graphically.
+
+![alt text](https://github.com/dwillhelm/ActiveHetML/blob/main/docs/figs/band_alignment_diagram.svg?raw=true)
