@@ -20,9 +20,12 @@ However, as we continue to discover new 2D monolayers, the heterostructure mater
 Here, I will demonstrate how active learning can be used to design a vdW bilayer with an optimal band edge of your choosing. First I will perform an initial analysis of the dataset in [Notebook 1](https://github.com/dwillhelm/ActiveHetML/blob/main/notebooks/01-data_exploration.ipynb). Afterward, I will test some machine learning models to predict the IE in [Notebook 2](https://github.com/dwillhelm/ActiveHetML/blob/main/notebooks/02-machine_learning.ipynb). Then I will use active learning to build new machine learning models starting with only 10 initial samples in [Notebook 3](https://github.com/dwillhelm/ActiveHetML/blob/main/notebooks/03-active_learning_for_DFT_surrogate.ipynb). Then, I will demonstrate how to use bayesian optimization to indentify materials with a specific IE in [Notebook 4](https://github.com/dwillhelm/ActiveHetML/blob/main/notebooks/04-active_learning_property_optimization.ipynb). 
 
 
-![bilayer_diagram](https://github.com/dwillhelm/ActiveHetML/blob/main/docs/figs/vdw_bilyer_diagram.png?raw=true)
+
 
 ## A Brief Material Background
+<br>  
+
+![bilayer_diagram](https://github.com/dwillhelm/ActiveHetML/blob/main/docs/figs/vdw_bilyer_diagram.png?raw=true)
 
 Here I will focus on one property - the ionization energy (IE). The IE is defined by the energy of the valence band maxima with respect to the vacuum level energy. Here, the IE is used with units in electron volts (eV). 
 
