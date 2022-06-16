@@ -1,6 +1,6 @@
 # ActiveHetML
 Active Learning for van der Waals Heterostructures  
-D.Willhelm (2022)
+D.Willhelm (6/14/2022)
 
 For the demonstration, please refer to the [example notebooks](https://github.com/dwillhelm/ActiveHetML/tree/main/notebooks). 
 
