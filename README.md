@@ -19,7 +19,9 @@ However, as we continue to discover new 2D monolayers, the heterostructure mater
 
 Here, I will demonstrate how active learning can be used to design a vdW bilayer with an optimal band edge of your choosing. First I will perform an initial analysis of the dataset in [Notebook 1](https://github.com/dwillhelm/ActiveHetML/blob/main/notebooks/01-data_exploration.ipynb). Afterward, I will test some machine learning models to predict the IE in [Notebook 2](https://github.com/dwillhelm/ActiveHetML/blob/main/notebooks/02-machine_learning.ipynb). Then I will use active learning to build new machine learning models starting with only 10 initial samples in [Notebook 3](https://github.com/dwillhelm/ActiveHetML/blob/main/notebooks/03-active_learning_for_DFT_surrogate.ipynb). Then, I will demonstrate how to use bayesian optimization to indentify materials with a specific IE in [Notebook 4](https://github.com/dwillhelm/ActiveHetML/blob/main/notebooks/04-active_learning_property_optimization.ipynb). 
 
+*Please Note that this dataset is relevent to an ongoing project and my thesis, please consider not openly sharing this dataset with others - thank you!* 
 
+*loading the dataset requires a custom package/module that has not been fully relseased - so it is likly that running the notebooks will be imposible.*
 
 
 ## A Brief Material Background
